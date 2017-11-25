@@ -1,0 +1,24 @@
+apply plugin: 'java'
+apply plugin: 'maven-publish'
+apply plugin: 'co.doppl.gradle'
+apply plugin: 'com.jfrog.bintray'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+dependencies {
+    //testCompile 'junit:junit:4.11'
+}
+
+apply from: "$dopplSharedScriptHome/doppllibpublish.gradle"
+apply from: "$dopplSharedScriptHome/bintray.gradle"
+
+/*dopplFrameworkTest{
+    enabled = false
+}*/
+
+dopplConfig {
+skipTests = true
+//    mappingsInput="src/main/java/androidbase.mappings"
+    mappingsInput="src/main/java/hamcrestcore.mappings"
+}

@@ -35,3 +35,4 @@ org.hamcrest.CustomMatcher=OrgHamcrestCustomMatcher.h
 org.hamcrest.SelfDescribing=OrgHamcrestSelfDescribing.h
 org.hamcrest.Matcher=OrgHamcrestMatcher.h
 org.hamcrest.core.DescribedAs=OrgHamcrestCoreDescribedAs.h
+org.hamcrest.CoreMatchers=OrgHamcrestCoreMatchers.h

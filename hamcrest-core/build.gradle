@@ -7,18 +7,12 @@ sourceCompatibility = 1.7
 targetCompatibility = 1.7
 
 dependencies {
-    //testCompile 'junit:junit:4.11'
 }
 
 apply from: "$dopplSharedScriptHome/doppllibpublish.gradle"
 apply from: "$dopplSharedScriptHome/bintray.gradle"
 
-/*dopplFrameworkTest{
-    enabled = false
-}*/
-
 dopplConfig {
-skipTests = true
-//    mappingsInput="src/main/java/androidbase.mappings"
+    skipTests = true
     mappingsInput="src/main/java/hamcrestcore.mappings"
 }

@@ -14,5 +14,4 @@ apply from: "$dopplSharedScriptHome/bintray.gradle"
 
 dopplConfig {
     skipTests = true
-    mappingsInput="src/main/java/hamcrestcore.mappings"
 }

@@ -26,7 +26,7 @@ allprojects {
 subprojects{
     group = 'co.doppl.org.hamcrest'
     version = doppl_hamcrest_doppl
-    ext.bintrayGitUrl = 'https://github.com/touchlab/JavaHamcrest.git'
+    ext.bintrayGitUrl = 'https://github.com/doppllib/JavaHamcrest.git'
     ext.javaCoreVersion = doppl_core_java
     ext.dopplCoreVersion = doppl_core_doppl
 }

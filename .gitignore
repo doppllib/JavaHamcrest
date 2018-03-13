@@ -9,6 +9,9 @@ build/
 out
 lib
 
+doppllib.podspec
+testdoppllib.podspec
+
 target
 pom.xml.*
 release.properties

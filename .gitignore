@@ -9,8 +9,7 @@ build/
 out
 lib
 
-doppllib.podspec
-testdoppllib.podspec
+*.podspec
 
 target
 pom.xml.*

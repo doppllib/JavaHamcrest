@@ -1,6 +1,6 @@
 apply plugin: 'java'
 apply plugin: 'maven-publish'
-apply plugin: 'co.doppl.gradle'
+apply plugin: 'org.j2objcgradle.gradle'
 apply plugin: 'com.jfrog.bintray'
 
 sourceCompatibility = 1.7
@@ -12,6 +12,6 @@ dependencies {
 apply from: "$dopplSharedScriptHome/doppllibpublish.gradle"
 apply from: "$dopplSharedScriptHome/bintray.gradle"
 
-dopplConfig {
+j2objcConfig {
     skipTests = true
 }

@@ -8,7 +8,7 @@ iOS development with J2objc using the [Doppl build framework](http://doppl.co/).
 ```groovy
 dependencies {
     compile 'org.hamcrest:hamcrest-core:1.3'
-    doppl 'co.doppl.org.hamcrest:hamcrest-core:1.3.0'
+    doppl 'org.j2objcgradle.org.hamcrest:hamcrest-core:1.3.0'
 }
 ```
 

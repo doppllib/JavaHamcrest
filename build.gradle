@@ -10,7 +10,7 @@ buildscript {
     }
     dependencies {
         classpath 'net.ltgt.gradle:gradle-apt-plugin:0.9'
-        classpath "co.doppl:gradle:${doppl_gradle_version}"
+        classpath "org.j2objcgradle:gradle:${doppl_gradle_version}"
         classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
     }
 }
@@ -24,7 +24,7 @@ allprojects {
 }
 
 subprojects{
-    group = 'co.doppl.org.hamcrest'
+    group = 'org.j2objcgradle.org.hamcrest'
     version = doppl_hamcrest_doppl
     ext.bintrayGitUrl = 'https://github.com/doppllib/JavaHamcrest.git'
     ext.javaCoreVersion = doppl_core_java
